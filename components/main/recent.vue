@@ -50,7 +50,7 @@ useHead({
       </div>
       <div grid="~ cols-1 md:cols-2 lg:cols-3 gap-4" p="t-10">
         <template v-for="post in formatedData" :key="post.title">
-          <BlogCard
+          <ProjectCard
             :path="post.path"
             :title="post.title"
             :date="post.date"
@@ -63,7 +63,7 @@ useHead({
           />
         </template>
         <template v-if="data?.length === 0">
-          <BlogEmpty />
+          <ProjectEmpty />
         </template>
       </div>
     </div>
