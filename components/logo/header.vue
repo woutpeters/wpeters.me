@@ -1,0 +1,9 @@
+<template>
+  <NuxtImg
+    src="/wpeters.me/assets/bg-header_pevoqi.png"
+    quality="100"
+    w="screen"
+    pos="absolute"
+    provider="cloudinary"
+  />
+</template>
