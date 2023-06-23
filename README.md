@@ -1,63 +1,32 @@
-# Nuxt 3 Minimal Starter
+# wpeters.me
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+My personal website built with Nuxt 3.
+
+Built as reference for optimal Nuxt code practices, SEO, performance and accessibility.
+
+## Features
+
+- 🤝 Integrated with @nuxt/image, images served with [cloudinary](https://cloudinary.com)
+- Automatic routes based on content /w 404 handling
+- Automatic navigation generation
+- Easy content composables
+- Fully typed content
+- Split pages/posts for easier content organisation
+- pnpm
+- Ues UnoCSS for designing
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+pnpm i
 ```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+Start the development server on http://localhost:3000
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm run dev
-
-# yarn
-yarn dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    '@nuxthq/studio',
     '@unocss/nuxt',
     '@nuxt/content',
     'nuxt-icon',
@@ -47,6 +48,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '/wpeters.me/', // baseURL: '/<repository>/'
     head: {
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
