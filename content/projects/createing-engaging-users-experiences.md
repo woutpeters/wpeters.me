@@ -1,12 +1,11 @@
 ---
 title: Frontend Development - Creating Engaging User Experiences
-date: 26-06-2023
+date: 2022-07-01
 description: Frontend development involves creating user interfaces using HTML, CSS, and JavaScript, while following best practices for efficient and engaging web experiences.
 image: /wpeters.me/blog/2023/old-1950s-computer-on-a-pink-background_qovpah.jpg
 alt: Frontend development utilizes HTML, CSS, and JavaScript to create engaging user interfaces while adhering to best practices for efficiency and optimal web experiences.
 ogImage: /old-1950s-computer-on-a-pink-background_qovpah.jpg
 tags: ['sass', 'javascript']
-published: true
 ---
 
 ## Frontend Development: Creating Engaging User Experiences
