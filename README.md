@@ -13,7 +13,7 @@ Built as reference for optimal Nuxt code practices, SEO, performance and accessi
 - Fully typed content
 - Split pages/posts for easier content organisation
 - pnpm
-- Ues UnoCSS for designing
+- Use UnoCSS for designing
 
 ## Setup
 
