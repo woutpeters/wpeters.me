@@ -20,7 +20,7 @@
         >
           Sorry, de pagina die u zoekt kan niet worden gevonden
         </h2>
-        <p text="sm:xl cool-gray-400" m="b-16" leading="relaxed">
+        <p text="sm:xl cool-gray" m="b-16" leading="relaxed">
           We hebben ons best gedaan, maar het lijkt erop dat deze pagina niet
           (meer) bestaat of misschien verhuisd is.
         </p>

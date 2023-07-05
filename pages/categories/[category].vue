@@ -26,7 +26,7 @@ const formatedData = computed(() => {
       image: articles.image || '/wpeters.me/blog/no-image_tkiuou.jpg',
       alt: articles.alt || 'no alter data available',
       ogImage: articles.ogImage || '/wpeters.me/blog/no-image_tkiuou.jpg',
-      date: articles.date || 'not-date-available',
+      date: articles.date || 'no-date-available',
       tags: articles.tags || [],
       published: articles.published || false,
     }
@@ -46,7 +46,7 @@ useHead({
 </script>
 
 <template>
-  <main container m="x-auto" p="x-4">
+  <main container pos="relative" m="x-auto" p="x-4">
     <CategoryTopic />
     <div grid="~ cols-1 md:cols-2 lg:cols-3 gap-4">
       <template v-for="post in formatedData" :key="post.title">

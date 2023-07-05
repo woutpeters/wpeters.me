@@ -19,7 +19,7 @@
           >
             Project Portfolio
           </h1>
-          <p text="sm:text-xl cool-gray-400" font="leading-relaxed">
+          <p text="sm:xl cool-gray" font="leading-relaxed">
             Overzicht met de meest recente projecten.
           </p>
         </div>

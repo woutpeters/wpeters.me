@@ -11,7 +11,7 @@ const data = computed<BlogPost>(() => {
     image: articles.image || '/wpeters.me/blog/no-image_tkiuou.jpg',
     alt: articles.alt || 'no alter data available',
     ogImage: articles.ogImage || '/wpeters.me/blog/no-image_tkiuou.jpg',
-    date: articles.date || 'not-date-available',
+    date: articles.date || 'no-date-available',
     tags: articles.tags || [],
     published: articles.published || false,
   }
@@ -94,23 +94,22 @@ useHead({
         w="4/5"
         object="cover"
       />
-      <p text="xs sm:sm cool-gray-400 center" m="y-3 x-auto" max-w="3xl">
+      <p text="xs sm:sm cool-gray center" m="y-3 x-auto" max-w="3xl">
         {{ data.description }}
       </p>
       <div flex="~ justify-center" w="full" text="xs md:text-base" m="y-8">
-        <div flex="sm:~ content-center gap-8" text="cool-gray-400 xs sm:sm">
-          <div flex="~ items-center gap-1" font="semibold">
+        <div flex="sm:~ content-center gap-8" text="cool-gray xs sm:sm">
+          <div flex="~ items-center gap-1">
             <Icon name="mdi:calendar-outline" size="1rem" />
-            <p>{{ data.date || '' }}</p>
+            <p>{{ formatDate(data.date) || '' }}</p>
           </div>
           <div flex="~ wrap items-center gap-1" m="y-5">
             <Icon name="mdi:tag-outline" w="4" h="4" />
             <template v-for="tag in data.tags" :key="tag">
               <span
                 bg="cool-gray-400 dark:blue-gray-700"
-                text="cool-gray-50 dark:cool-gray-400"
+                text="cool-gray-50 dark:cool-gray"
                 border="rounded-md"
-                font="semibold"
                 p="x-2 y-2"
                 >{{ tag }}</span
               >

@@ -26,7 +26,7 @@
           >
             Hallo, ik ben Wout 👋
           </h1>
-          <p text="sm:xl cool-gray-400" font="leading-relaxed" m="b-12">
+          <p text="sm:xl cool-gray" font="leading-relaxed" m="b-12">
             Front-end Developer & Designer.
           </p>
         </div>

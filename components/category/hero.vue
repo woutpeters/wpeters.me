@@ -19,7 +19,7 @@
           >
             Tech Stack
           </h1>
-          <p text="sm:text-xl cool-gray-400" font="leading-relaxed">
+          <p text="sm:xl cool-gray" font="leading-relaxed">
             Tools en scripttalen die ik gebruik voor mijn projecten.
           </p>
         </div>

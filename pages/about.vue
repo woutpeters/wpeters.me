@@ -23,7 +23,7 @@
               Aangenaam!
             </h1>
           </div>
-          <p text="cool-gray-400" m="b-3" leading="relaxed">
+          <p text="cool-gray" m="b-3" leading="relaxed">
             Mijn naam is Wout Peters. Van jongs af aan ben ik al bezig met
             techniek. Dat begon met het uit elkaar schroeven van computers en
             daarna weer in elkaar zetten zodat het weer werkt. Mijn passie voor
@@ -31,7 +31,7 @@
             ICT &amp; Media Design. Na het afronden van deze studie ben ik aan
             de slag gegaan als front-end developer.
           </p>
-          <p text="cool-gray-400" m="b-3" leading="relaxed">
+          <p text="cool-gray" m="b-3" leading="relaxed">
             In mijn portfolio neem ik websites en projecten op waar ik trots op
             ben en die ik graag met de buitenwereld deel!
           </p>

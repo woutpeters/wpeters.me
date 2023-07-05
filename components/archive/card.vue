@@ -38,7 +38,7 @@ withDefaults(defineProps<Props>(), {
         <NuxtImg
           border="rounded-t-2xl sm:rounded-l-2xl sm:rounded-t-none"
           w="full"
-          h="full"
+          h="48 lg:64"
           object="cover center"
           shadow="lg"
           transition="~ duration-500"
@@ -55,10 +55,10 @@ withDefaults(defineProps<Props>(), {
         <p text-ellipsis line-clamp-2>
           {{ description }}
         </p>
-        <div flex="md:~ gap-2" text="sm" p="t-2 b-1">
+        <div flex="md:~ gap-2" text="sm cool-gray" p="t-2 b-1">
           <div flex="~ items-center gap-1">
             <Icon name="mdi:calendar-outline" size="1rem" />
-            {{ date }}
+            {{ formatDate(date) }}
           </div>
           <div flex="~ wrap items-center gap-1">
             <Icon name="mdi:tag-outline" size="1rem" />

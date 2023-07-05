@@ -14,7 +14,7 @@ const copyrightDate = new Date().getFullYear()
       </div>
 
       <div flex="~ justify-center items-center" text="center">
-        <div text="cool-gray-400">
+        <div text="cool-gray">
           © {{ copyrightDate }} All rights reserved.
           <a
             href="https://github.com/wpeters/blog"

@@ -48,11 +48,11 @@ withDefaults(defineProps<Props>(), {
       />
       <div p="x-3 b-4">
         <div p="t-3 b-2">
-          <div flex="~ items-center gap-1">
+          <div text="cool-gray" flex="~ items-center gap-1">
             <Icon name="mdi:calendar-outline" size="1rem" />
-            {{ date }}
+            {{ formatDate(date) }}
           </div>
-          <div flex="~ items-center wrap gap-1">
+          <div text="cool-gray" flex="~ items-center wrap gap-1">
             <Icon name="mdi:tag-outline" />
             <template v-for="tag in tags" :key="tag">
               <span>{{ tag }}</span>
