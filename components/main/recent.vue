@@ -1,7 +1,10 @@
 <script lang="ts" setup>
-// Get Last 6 Publish Post from the content/projects directory
 const { data } = await useAsyncData('recent-post', () =>
-  queryContent('/projects').limit(3).sort({ _id: -1 }).find()
+  queryContent('/projects')
+    .where({ published: true })
+    .limit(6)
+    .sort({ date: -1 })
+    .find()
 )
 
 const formatedData = computed(() => {
@@ -13,7 +16,7 @@ const formatedData = computed(() => {
       image: articles.image || '/wpeters.me/blog/no-image_tkiuou.jpg',
       alt: articles.alt || 'no alter data available',
       ogImage: articles.ogImage || '/wpeters.me/blog/no-image_tkiuou.jpg',
-      date: articles.date || 'not-date-available',
+      date: articles.date || 'no-date-available',
       tags: articles.tags || [],
       published: articles.published || false,
     }
@@ -44,7 +47,7 @@ useHead({
         >
           Project Portfolio
         </h2>
-        <p text="sm:xl cool-gray-400" font="leading-relaxed">
+        <p text="sm:xl cool-gray" font="leading-relaxed">
           Overzicht met de meest recente projecten
         </p>
       </div>
