@@ -13,7 +13,8 @@ const category = computed(() => {
 
 const { data } = await useAsyncData('home', () =>
   queryContent('/projects')
-    .where({ tags: { $contains: category.value } })
+    .where({ tags: { $contains: category.value }, published: true })
+    .sort({ date: -1 })
     .find()
 )
 
@@ -38,7 +39,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: `You will find all the ${category.value} related post here`,
+      content: `You will find all the ${category.value} related projects here`,
     },
   ],
   titleTemplate: 'Wout Peters - %s',
