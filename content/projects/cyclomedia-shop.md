@@ -1,8 +1,10 @@
 ---
 title: Cyclomedia Shop
 date: 2023-07-07
-description: Frontend development project description.
-alt: Frontend development alt text.
+description: Frontend development voor het Cyclomedia Shop project.
+alt: Frontend development voor het Cyclomedia Shop project.
+image: /wpeters.me/projects/shop.cyclomedia.com_nl_tqaydo.png
+ogImage: /wpeters.me/projects/shop.cyclomedia.com_nl_tqaydo.png
 tags:
   [
     'html',
@@ -18,5 +20,3 @@ tags:
   ]
 published: true
 ---
-
-## Title:
